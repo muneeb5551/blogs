@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-main {
+    background-color: #2bb2c0;
+    padding: 15px 0px;
+    position: fixed;
+}
+
+.navbar-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-main {
+    width: 10%;
+    margin-left: -5%;
+}
+
+.menus-main {
+    margin-left: 90px;
+    width: 40%;
+    padding: 20px 0px 0px 0px;
+}
+
+.navbar-menu {
+    list-style: none;
+    gap: 33px;
+}
+
+.pages-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.pages-title:hover {
+    color: #ffff;
+}
+
+.navbar-buttons {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.register-button {
+    background: #d63422d7;
+    padding: 10px 19px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    font-style: normal;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-title {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+
+}
